@@ -8,8 +8,8 @@ export default function CarCard({ car, revealClass = '' }) {
           <img src={car.image} alt={car.name} />
         ) : (
           <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '8px' }}>
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0D3526" strokeWidth="1.5" opacity="0.4"><rect x="1" y="6" width="22" height="12" rx="3"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M5 6l2-3h10l2 3"/></svg>
-            <span style={{ fontSize: '0.75rem', color: '#0D3526', opacity: 0.5, fontWeight: 500 }}>{car.name}</span>
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#041E41" strokeWidth="1.5" opacity="0.4"><rect x="1" y="6" width="22" height="12" rx="3"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/><path d="M5 6l2-3h10l2 3"/></svg>
+            <span style={{ fontSize: '0.75rem', color: '#041E41', opacity: 0.5, fontWeight: 500 }}>{car.name}</span>
           </div>
         )}
         <span className="car-badge">{car.badge}</span>

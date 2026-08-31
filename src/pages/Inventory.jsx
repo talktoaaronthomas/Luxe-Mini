@@ -57,7 +57,7 @@ export default function Inventory() {
         <div className="container">
           <h1 style={{ fontSize: '2.5rem', marginBottom: 'var(--space-sm)' }}>Our Inventory</h1>
           <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-            Browse our complete collection of premium pre-owned vehicles. Use filters to find your perfect match.
+            Browse our complete collection of pre-owned budget cars. Use filters to find your perfect match.
           </p>
         </div>
       </section>

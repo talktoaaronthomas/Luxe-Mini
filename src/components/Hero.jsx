@@ -22,7 +22,7 @@ export default function Hero() {
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8A96E" strokeWidth="2"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
           <span>A Division of Luxe Moto</span>
         </div>
-        <h1>Premium Pre-Owned.<br /><span className="highlight">Affordable Luxury.</span></h1>
+        <h1>Pre-Owned<br /><span className="highlight">Budget Cars.</span></h1>
         <p>Discover handpicked, thoroughly inspected used cars at unbeatable prices. Your trusted partner for quality pre-owned vehicles in Kochi, Kerala.</p>
         <div className="hero-buttons">
           <Link to="/inventory" className="btn-primary">

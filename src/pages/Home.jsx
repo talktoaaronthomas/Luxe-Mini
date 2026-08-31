@@ -52,7 +52,7 @@ export default function Home() {
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">Featured Cars</h2>
-            <p className="section-subtitle">Explore our handpicked collection of premium pre-owned vehicles, all ready for a test drive.</p>
+            <p className="section-subtitle">Explore our handpicked collection of pre-owned budget cars, all ready for a test drive.</p>
             <div className="gold-line"></div>
           </div>
           

@@ -247,7 +247,7 @@ function initEMICalculator() {
     const max = parseFloat(slider.max);
     const val = parseFloat(slider.value);
     const percent = ((val - min) / (max - min)) * 100;
-    slider.style.background = `linear-gradient(to right, #0D3526 0%, #0D3526 ${percent}%, #E5E7EB ${percent}%, #E5E7EB 100%)`;
+    slider.style.background = `linear-gradient(to right, #041E41 0%, #041E41 ${percent}%, #E5E7EB ${percent}%, #E5E7EB 100%)`;
   }
 
   // Attach listeners
@@ -289,7 +289,7 @@ function handleFormSubmit(event) {
       </svg>
       Enquiry Sent!
     `;
-    submitBtn.style.background = 'linear-gradient(135deg, #1A6B4C, #0D3526)';
+    submitBtn.style.background = 'linear-gradient(135deg, #0B3A7B, #041E41)';
 
     // Reset form after a moment
     setTimeout(() => {

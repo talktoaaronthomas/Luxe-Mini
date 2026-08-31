@@ -1,6 +1,6 @@
 /* ============================================
    LUXE MINI — Design System & Styles
-   Brand: #0D3526 (Dark Green) + #FFFFFF (White)
+   Brand: #041E41 (Dark Blue) + #FFFFFF (White)
    ============================================ */
 
 /* ---------- Google Font ---------- */
@@ -10,10 +10,10 @@
 /* ---------- CSS Custom Properties ---------- */
 :root {
   /* Brand Palette */
-  --primary: #0D3526;
-  --primary-light: #154a36;
-  --primary-lighter: #1A6B4C;
-  --primary-dark: #091f17;
+  --primary: #041E41;
+  --primary-light: #072C5C;
+  --primary-lighter: #0B3A7B;
+  --primary-dark: #021127;
   --white: #FFFFFF;
   --off-white: #F8F9FA;
   --gold: #C8A96E;
@@ -192,7 +192,7 @@ ul { list-style: none; }
 }
 
 .navbar.scrolled {
-  background: rgba(13, 53, 38, 0.95);
+  background: rgba(4, 30, 65, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   padding: var(--space-md) 0;
@@ -358,9 +358,9 @@ ul { list-style: none; }
   inset: 0;
   background: linear-gradient(
     135deg,
-    rgba(13, 53, 38, 0.92) 0%,
-    rgba(13, 53, 38, 0.7) 50%,
-    rgba(13, 53, 38, 0.85) 100%
+    rgba(4, 30, 65, 0.92) 0%,
+    rgba(4, 30, 65, 0.7) 50%,
+    rgba(4, 30, 65, 0.85) 100%
   );
 }
 
@@ -548,7 +548,7 @@ ul { list-style: none; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(13, 53, 38, 0.03), rgba(200, 169, 110, 0.05));
+  background: linear-gradient(135deg, rgba(4, 30, 65, 0.03), rgba(200, 169, 110, 0.05));
   opacity: 0;
   transition: opacity var(--duration-normal) var(--ease-out);
 }
@@ -757,7 +757,7 @@ ul { list-style: none; }
 
 .btn-view:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(13, 53, 38, 0.3);
+  box-shadow: 0 6px 20px rgba(4, 30, 65, 0.3);
 }
 
 /* View All Button */
@@ -1032,7 +1032,7 @@ ul { list-style: none; }
   border-radius: 50%;
   background: linear-gradient(135deg, var(--primary), var(--primary-light));
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(13, 53, 38, 0.3);
+  box-shadow: 0 2px 8px rgba(4, 30, 65, 0.3);
   transition: transform var(--duration-fast) var(--ease-out);
 }
 
@@ -1047,7 +1047,7 @@ ul { list-style: none; }
   background: linear-gradient(135deg, var(--primary), var(--primary-light));
   cursor: pointer;
   border: none;
-  box-shadow: 0 2px 8px rgba(13, 53, 38, 0.3);
+  box-shadow: 0 2px 8px rgba(4, 30, 65, 0.3);
 }
 
 .emi-result {
@@ -1233,7 +1233,7 @@ ul { list-style: none; }
 .form-group select:focus,
 .form-group textarea:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(13, 53, 38, 0.1);
+  box-shadow: 0 0 0 3px rgba(4, 30, 65, 0.1);
 }
 
 .form-group textarea {
@@ -1261,7 +1261,7 @@ ul { list-style: none; }
 
 .btn-submit:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(13, 53, 38, 0.3);
+  box-shadow: 0 8px 25px rgba(4, 30, 65, 0.3);
 }
 
 /* Map placeholder */
